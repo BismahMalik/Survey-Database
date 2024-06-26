@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin</title>
+  </head>
+  <body>
+    <h1> Survey Database</h1>
+
+
+<h3> Admin Login</h3>
+<style>
+h1 {
+font-size: 3em;
+  text-align: center;
+}
+h3 {
+font-size: 2em;
+  text-align: center;
+}}
+
+a.fixed {
+
+position: fixed;
+
+right: 0;
+
+top: 0;
+
+width: 260px;
+
+
+
+}
+
+body {
+        margin-left: 110px;
+margin-right: 110px;
+margin-top: 110px;
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,223,230,1) 100%);
+}
+</style>
+    
+
+<fieldset>
+<legend>Admin Login</legend>
+<form name="frmContact" method="post" action="login.php">
+<p>
+<label for="Username" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Username </label>
+<input type="text" name="txtUsername" id="txtUsername" required>
+</p>
+<p>
+<label for="Password" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Password</label>
+<input type="password" name="txtPass"  id="txtPass" required>
+</p>
+<p>&nbsp;</p>
+<p>
+<input type="submit" name="Submit" id="Submit" value="Login">
+</p>
+
+</form>
+</fieldset>
+</body>
+</html>

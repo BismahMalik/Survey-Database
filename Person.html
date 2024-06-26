@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Person</title>
+</head>
+<h2> Survey Database</h2>
+<style>
+body {
+        margin-left: 110px;
+margin-right: 110px;
+margin-top: 110px;
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,223,230,1) 100%);
+}
+</style>
+<body>
+<fieldset>
+<legend>Person</legend>
+<form name="frmPerson" method="post" action="Persons.php">
+<p>
+  <label for="Person_ID" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Person_ID</label>
+  <input type="number" name="txtPersonID" id="txtPersonID" style="display: inline-block; width: 200px;" required>
+</p>
+<p>
+  <label for="FirstName" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">FirstName</label>
+  <input type="text" name="txtFirstName" id="txtFirstName" style="display: inline-block; width: 200px;" required>
+</p>
+<p>
+  <label for="LastName" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">LastName</label>
+  <input type="text" name="txtLastName" id="txtLastName" style="display: inline-block; width: 200px;" required>
+</p>
+<p>
+  <label for="Email" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Email</label>
+  <input type="text" name="txtEmail" id="txtEmail" style="display: inline-block; width: 200px;" required>
+</p>
+<p>
+  <label for="Phone" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Phone</label>
+  <input type="text" name="txtPhone" id="txtPhone" style="display: inline-block; width: 200px;" required>
+</p>
+
+<p>&nbsp;</p>
+<p>
+<input type="submit" name="Submit" id="Submit" value="Submit">
+</p>
+</form>
+</fieldset>
+</body>
+</html>

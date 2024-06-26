@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Survey Form
+	</title>
+
+	<style>
+
+		/* Styling the Body element i.e. Color,
+		Font, Alignment */
+		body {
+			background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,223,230,1) 100%);
+			font-family: Verdana;
+			text-align: center;
+		}
+
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: #fff;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input,
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+		button {
+			background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,223,230,1) 100%);
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Survey Form</h1>
+<h1>Women's Empowerment</h1>
+
+
+	<!-- Create Form -->
+	<form id="form" method="post" action="SurveyForm.php">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="txtName">
+				Name
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="txtName"
+name="txtName"
+				placeholder="Enter your name" required/>
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="txtEmail">
+				Email
+			</label>
+
+			<!-- Input Type Email-->
+			<input type="email"
+				id="txtEmail"
+name="txtEmail"
+				placeholder="Enter your email"  required/>
+		</div>
+
+		<div class="form-control">
+			<label for="age" id="txtAge">
+				Age
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="txtAge"
+name="txtAge"
+				placeholder="Enter your age" required />
+		</div>
+<div class="form-control">
+			<label for="Q1" id="txtQ1">
+				Do you think women play important role in society?
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="txtQ1"
+name="txtQ1"
+				 required/>
+		</div>
+<div class="form-control">
+			<label for="Q2" id="txtQ2">
+				Is the lack of empowerment an equality issue?
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="txtQ2"
+name="txtQ2"
+				required />
+		</div>
+<div class="form-control">
+			<label for="Q3" id="txtQ3">Do you think womens are given equal status in socity as mens?
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="txtQ3"
+name="txtQ3"
+				required />
+		</div>
+
+		
+	
+
+		<!-- Multi-line Text Input Control -->
+		<button type="submit" value="submit">
+			Submit
+		</button>
+	</form>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Offered Response Form </title>
+</head>
+<h2> Survey Database</h2>
+<style>
+body {
+        margin-left: 110px;
+margin-right: 110px;
+margin-top: 110px;
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,223,230,1) 100%);
+}
+</style>
+<fieldset>
+<legend>Offered Response</legend>
+<form name="frmContact" method="post" action="UOfferedResponse.php">
+<p>
+<label for="ID" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">ID </label>
+<input type="text" name="txtID" id="txtID">
+</p>
+<p>
+<label for="Response" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Response</label>
+<textarea name="txtResponse" id="txtResponse"></textarea>
+</p>
+<p>&nbsp;</p>
+
+<p>
+<input type="submit" name="Submit" id="Submit" value="Update">
+</p>
+</form>
+</fieldset>
+</body>
+</html>

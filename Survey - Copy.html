@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Survey</title>
+</head>
+<h2> Survey Database</h2>
+<style>
+body {
+        margin-left: 110px;
+margin-right: 110px;
+margin-top: 110px;
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,223,230,1) 100%);
+}
+</style>
+<body>
+<fieldset>
+<legend>Survey</legend>
+<form name="frmSurvey" method="post" action="Survey.php">
+<p>
+  <label for="SurveyID" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">SurveyID</label>
+  <input type="text" name="txtSurveyID" id="txtSurveyID" style="display: inline-block; width: 200px;" required>
+</p>
+<p>
+  <label for="Topic" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Topic</label>
+  <input type="text" name="txtTopic" id="txtTopic" style="display: inline-block; width: 200px;" required>
+</p>
+<p>
+  <label for="SDescription" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Survey Description</label>
+  <textarea name="txtSDescription" id="txtSDescription" style="display: inline-block; width: 200px;" required></textarea>
+</p>
+<p>
+  <label for="StartedOn" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">StartedOn</label>
+  <input type="text" name="txtStartedOn" id="txtStartedOn" style="display: inline-block; width: 200px;" required>
+</p>
+<p>
+  <label for="EndedOn" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">EndedOn</label>
+  <input type="text" name="txtEndedOn" id="txtEndedOn" style="display: inline-block; width: 200px;" required>
+</p>
+
+<p>&nbsp;</p>
+<p>
+<input type="submit" name="Submit" id="Submit" value="Submit">
+</p>
+</form>
+</fieldset>
+</body>
+</html>

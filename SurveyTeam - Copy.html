@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SurveyTeam</title>
+</head>
+<h2> Survey Database</h2>
+<style>
+body {
+        margin-left: 110px;
+margin-right: 110px;
+margin-top: 110px;
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,223,230,1) 100%);
+}
+</style>
+<body>
+<fieldset>
+<legend>Survey Team</legend>
+<form name="frmSurvey Team" method="post" action="SurveyTeam.php">
+<p>
+  <label for="SurveyTeam_ID" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">SurveyTeam_ID</label>
+  <input type="number" name="txtSurveyTeam_id" id="txtSurveyTeam_id" style="display: inline-block; width: 200px;" required>
+</p>
+<p>
+  <label for="Total Members" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Total Members</label>
+  <input type="number" name="txtTotalMembers" id="txtTotalMembers" style="display: inline-block; width: 200px;" required>
+</p>
+<p>
+  <label for="Survey_ID" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Survey_ID</label>
+  <input type="number" name="txtSurvey_id" id="txtSurvey_id" style="display: inline-block; width: 200px;" required>
+</p>
+<p>
+  <label for="Staff_ID" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Staff_ID</label>
+  <input type="number" name="txtStaff_id" id="txtStaff_id" style="display: inline-block; width: 200px;" required>
+</p>
+
+<p>&nbsp;</p>
+<p>
+<input type="submit" name="Submit" id="Submit" value="Submit">
+</p>
+</form>
+</fieldset>
+</body>
+</html>

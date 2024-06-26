@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Staff</title>
+</head>
+<h2> Survey Database</h2>
+<style>
+body {
+        margin-left: 110px;
+margin-right: 110px;
+margin-top: 110px;
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,223,230,1) 100%);
+}
+</style>
+<body>
+<fieldset>
+<legend>Staff</legend>
+<form name="frmStaff" method="post" action="Staff.php">
+<p>
+  <label for="FirstName" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">FirstName</label>
+  <input type="text" name="txtFirstName" id="txtFirstName" style="display: inline-block; width: 200px;" required>
+</p>
+<p>
+  <label for="LastName" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">LastName</label>
+  <input type="text" name="txtLastName" id="txtLastName" style="display: inline-block; width: 200px;" required>
+</p>
+<p>
+  <label for="Email" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Email</label>
+  <input type="text" name="txtEmail" id="txtEmail" style="display: inline-block; width: 200px;" required>
+</p>
+<p>
+  <label for="Address" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Address</label>
+  <input type="text" name="txtAddress" id="txtAddress" style="display: inline-block; width: 200px;" required>
+</p>
+<p>
+  <label for="Designation" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Designation</label>
+  <input type="text" name="txtDesignation" id="txtDesignation" style="display: inline-block; width: 200px;" required>
+</p>
+<p>
+  <label for="Staff_ID" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Staff_ID</label>
+  <input type="number" name="txtStaff_ID" id="txtStaff_ID" style="display: inline-block; width: 200px;" required >
+</p>
+<p>
+  <label for="Organization_ID" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Organization_ID</label>
+  <input type="number" name="txtOrganization_ID" id="txtOrganization_ID" style="display: inline-block; width: 200px;" required>
+</p>
+
+<p>&nbsp;</p>
+<p>
+<input type="submit" name="Submit" id="Submit" value="Submit">
+</p>
+</form>
+</fieldset>
+</body>
+</html>

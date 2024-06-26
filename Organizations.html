@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Organization</title>
+</head>
+<h2> Survey Database</h2>
+<style>
+body {
+        margin-left: 110px;
+margin-right: 110px;
+margin-top: 110px;
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,223,230,1) 100%);
+}
+</style>
+<body>
+<fieldset>
+<legend>Organization</legend>
+<form name="frmCOrganization" method="post" action="Organizations.php">
+<p>
+  <label for="Organization" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Organization</label>
+  <input type="text" name="txtOrganization" id="txtOrganization" style="display: inline-block; width: 200px;" required>
+</p>
+<p>
+  <label for="ID" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">ID</label>
+  <input type="number" name="txtID" id="txtID" style="display: inline-block; width: 200px;" required>
+</p>
+
+
+<p>&nbsp;</p>
+<p>
+<input type="submit" name="Submit" id="Submit" value="Submit">
+</p>
+</form>
+</fieldset>
+
+</body>
+</html>

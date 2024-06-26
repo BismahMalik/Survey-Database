@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Admin</title>
+</head>
+<h2> Survey Database</h2>
+<style>
+body {
+        margin-left: 110px;
+margin-right: 110px;
+margin-top: 110px;
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(255,223,230,1) 100%);
+}
+</style>
+<body>
+<fieldset>
+<legend>Admin</legend>
+<form name="frmAdmin" method="post" action="admins.php">
+<p>
+<label for="PersonId" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">PersonId</label>
+<input type="number" name="txtPersonId" id="txtPersonId" required>
+</p>
+<p>
+<label for="SurveyTeamId" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">SurveyTeamId</label>
+<input type="number" name="txtSurveyTeamId" id="txtSurveyTeamId" required>
+</p>
+<label for="OrganizationId"style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">OrganizationId</label>
+<input type="number" name="txtOrganizationId" id="txtOrganizationId" required>
+</p>
+<label for="QuestionId"style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">QuestionId</label>
+<input type="number" name="txtQuestionId" id="txtQuestionId" required>
+</p>
+<label for="OfferedResId"style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">OfferedResId</label>
+<input type="text" name="txtOfferedResId" id="txtOfferedResId" required>
+</p>
+<label for="SurveyId"style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">SurveyId</label>
+<input type="number" name="txtSurveyId" id="txtSurveyId" required>
+</p>
+<label for="StaffId" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">StaffId</label>
+<input type="number" name="txtStaffId" id="txtStaffId" required>
+</p>
+<p>&nbsp;</p>
+<p>
+<input type="submit" name="Submit" id="Submit" value="Submit">
+</p>
+</form>
+</fieldset>
+</body>
+</html>
